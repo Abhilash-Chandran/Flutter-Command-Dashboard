@@ -1,0 +1,22 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.box {
+    flex: 1 1 800px; /*  Stretching: */
+    flex: 0 1 800px; /*  No stretching: */
+    margin: 5px;
+}
+
+.green {
+  background-color: blanchedalmond;
+  border: 1px solid gray;
+}
+
+#depGraph {
+  width: 800px;
+  height: 800px;
+  display: block;
+}
